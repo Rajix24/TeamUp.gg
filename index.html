@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
     <header>
         <nav>
             <div class="logo">TeamUp<span>.gg</span></div>
@@ -15,6 +17,7 @@
                     <li><a href="#">Comment ca marche</a></li>
                     <li><a href="#">Joueurs</a></li>
                     <li><a href="#">Communaute</a></li>
+                    <li class="btn-ajoute"><a href="./ajoute.html">+Ajoutee</a></li>
                     <li class="btn-connexion"><a href="#">connexion</a></li>
                 </lu>
         </nav>
@@ -35,6 +38,222 @@
         </div>
     </section>
 
+                                <!-- section: search team-->
 
+    <section class="search">
+        <div class="search-box">
+            <div class="search-box-big-title">
+            <h2>Recherch ton equipe ideale</h2>
+            </div>
+                <div class="search-box-input">
+                    <div class="search-box-select-game">
+                        <label>jeu</label>
+                        <input type="text" placeholder="Selectionne un jeu">
+                    </div>
+                    <div class="search-box-select-niveau">
+                        <label>Niveau</label>
+                        <input type="text" placeholder="Tous les niveaux">
+                    </div>
+                    <div class="search-box-select-role">
+                        <label>Role</label>
+                        <input type="text" placeholder="Tous les roles">
+                    </div>
+                    <button class="search-box-button">Recherch</button>
+                </div>
+        </div>
+    </section>
+
+                                <!-- section comment ca-->
+
+    <section class="comment-ca">
+        <h2>Comment ça marche ?</h2>
+        <div class="line"></div>
+        <div class="comment-ca-box">
+            <div class="comment-ca-box-info-one">
+                <div class="comment-ca-box-info-one-box"><ion-icon name="people-outline"></ion-icon></div>
+                <h3>Trouve une equipe</h3>
+                <p>Parcours des centaines de profils de joueurs et d'équipes qui cherchent des
+                coéquipiers de ton niveau.</p>
+            </div>
+            <div class="comment-ca-box-info-two ">
+                <div class="comment-ca-box-info-two-box"><ion-icon name="person-add-outline"></ion-icon></div> 
+                <h3>Trouve une equipe</h3>
+                <p>Parcours des centaines de profils de joueurs et d'équipes qui cherchent des
+                coéquipiers de ton niveau.</p>
+            </div>
+            <div class="comment-ca-box-info-three">
+                <div class="comment-ca-box-info-three-box"><ion-icon name="person-add-outline"></ion-icon></div>
+                <h3>Trouve une equipe</h3>
+                <p>Parcours des centaines de profils de joueurs et d'équipes qui cherchent des
+                coéquipiers de ton niveau.</p>
+            </div>
+        </div>
+    </section>
+
+                                <!-- section teams dispo-->
+    <section class="player-dispo">
+        <div class="player-dispo">
+            <h2 class="player-dispo-title">Team disponibles</h2>
+            <div class="line" id="player-disop-line"></div>
+            <div class="player-dispo-box">
+            <!--team 1-->
+                <div class="player-dispo-box-p2">
+                        <div class="player-dispo-box-p2-icon">
+                            <img src="./Images/Cr7.jfif" alt="Adbrazak">
+                        </div>
+                    <h3>xFawzer</h3>
+                    <div class="game-p2">
+                        <p> Valorant</p>
+                    </div>
+                    <div class="position-level-p2">
+                        <p class="position-p2">Position</p>
+                        <p class="position-p2">Diamant</p>
+                    </div>
+                    <p>A team is a group of individuals working together to achieve a common goal, relying on collaboration, shared accountability, and interdependent skills</p>
+                    <div class="skill-text">
+                        <p class="skills-p2">Skills</p>
+                        <p class="text-p2">Praesent sed enim ac risus venenatis egestas a a dolor.
+                        Vestibulum luctus enim sit amet pellentesque rutrum.
+                        Integer a ligula in sem egestas accumsan.
+                        Aliquam vitae ante sit amet ligula scelerisque finibus.
+                        Morbi vulputate urna vel est pretium vulputate. </p>
+                    </div>
+                    <div class="btn-p2">
+                        <button class="btn-p2-detaile">Detaile</button>
+                        <button class="btn-p2-submit">Submit</button>
+                    </div>
+                </div>
+            <!-- team 2-->
+             <div class="player-dispo-box-p2">
+                        <div class="player-dispo-box-p2-icon">
+                            <img src="./Images/Sentinels_logo.svg" alt="Adbrazak">
+                        </div>
+                    <h3>Sentinels</h3>
+                    <div class="game-p2">
+                        <p> Valorant</p>
+                    </div>
+                    <div class="position-level-p2">
+                        <p class="position-p2">Position</p>
+                        <p class="position-p2">Diamant</p>
+                    </div>
+                    <p>A team is a group of individuals working together to achieve a common goal, relying on collaboration, shared accountability, and interdependent skills</p>
+                    <div class="skill-text">
+                        <p class="skills-p2">Skills</p>
+                        <p class="text-p2">Praesent sed enim ac risus venenatis egestas a a dolor.
+                        Vestibulum luctus enim sit amet pellentesque rutrum.
+                        Integer a ligula in sem egestas accumsan.
+                        Aliquam vitae ante sit amet ligula scelerisque finibus.
+                        Morbi vulputate urna vel est pretium vulputate. </p>
+                    </div>
+                    <div class="btn-p2">
+                        <button class="btn-p2-detaile">Detaile</button>
+                        <button class="btn-p2-submit">Submit</button>
+                    </div>
+                </div>
+            <!-- team 3 -->
+            <div class="player-dispo-box-p2">
+                <div class="player-dispo-box-p2-icon">
+                    <img src="./Images/Follow _.jfif" alt="Adbrazak">
+                </div>
+            <h3>Rajix</h3>
+            <div class="game-p2">
+                <p> Valorant</p>
+            </div>
+            <div class="position-level-p2">
+                <p class="position-p2">Position</p>
+                <p class="position-p2">Diamant</p>
+            </div>
+            <p>A team is a group of individuals working together to achieve a common goal, relying on collaboration, shared accountability, and interdependent skills</p>
+            <div class="skill-text">
+                <p class="skills-p2">Skills</p>
+                <p class="text-p2">Praesent sed enim ac risus venenatis egestas a a dolor.
+                Vestibulum luctus enim sit amet pellentesque rutrum.
+                Integer a ligula in sem egestas accumsan.
+                Aliquam vitae ante sit amet ligula scelerisque finibus.
+                Morbi vulputate urna vel est pretium vulputate. </p>
+            </div>
+            <div class="btn-p2">
+                <button class="btn-p2-detaile">Detaile</button>
+                <button class="btn-p2-submit">Submit</button>
+            </div>
+                </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- section players online -->
+    <section class="online">
+        <h3>joueurs disponibles</h3>
+        <div class="line"></div>
+        <div class="card">
+         <div class="player-online-1"> 
+                        <div class="player-online-1-box">
+                            <img src="./Images/Cr7.jfif" alt="Adbrazak">
+                        </div>
+                    <h3>xFawzer</h3>
+                    <div class="game-p2">
+                        <p> Valorant</p>
+                    </div>
+                    <div class="position-level">
+                        <p class="position-p2">Position</p>
+                        <p class="position-p2">Diamant</p>
+                    </div>
+                    <p>A team is a group of individuals working together to achieve a common goal, relying on collaboration, shared accountability, and interdependent skills</p>
+                    </div>
+                    <div class="btn-p2">
+                        <button class="btn-p2-see">Submit</button>
+                    </div>
+            </div>
+            </div>
+    </section>
+        <footer>
+        <div class="con">
+            <div class="con-info">
+                <div class="div1">
+                    <div class="div1-logo">
+                        <h2>TeamUp<span>.gg</span></h2>
+                    </div>
+                    <div class="div1-text">
+                        <p>La plateforme E-sport qui connecte
+                        <br>les joueurs et les équipes du
+                        monde entier.</p>
+                    </div>
+                    <div class="div-sm">
+                        <div class="discord"></div>
+                        <div class="x"></div>
+                        <div class="twitch"></div>
+                        <div class="youtube"></div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <h4> Platforme</h4>
+                    <p>Trouver une équipe</p>
+                    <p>Créer un profil</p>
+                    <p>Tournois</p>
+                    <p>Classements</p>
+                </div>
+                <div class="div2">
+                    <h4>Jeux</h4>
+                    <p>Valorant</p>
+                    <p>League of Legends</p>
+                    <p>Counter-Strike 2</p>
+                    <p>Overwatch 2</p>
+                </div>
+                <div class="div2">
+                    <h4>Support</h4>
+                    <p>Centre d'aide</p>
+                    <p>Conditions d'utilisation</p>
+                    <p>Politique de confidentialité</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+            <div class="con-tn">
+                <p>© 2025 TeamUp.gg. Tous droits réservés. Tayeb SOUINI, Formateur Référent Youcoude Youssoufia</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
